@@ -1,0 +1,24 @@
+@tailwind components;
+
+@layer components {
+  .btn {
+    @apply px-4 py-2 cursor-pointer rounded-lg text-sm transition-all;
+    &:hover {
+      @apply transition-all;
+    }
+  }
+
+  .btn-secondary {
+    @apply text-stone-500 border border-stone-200;
+    &:hover {
+      @apply bg-stone-100
+    }
+  }
+
+  .btn-primary {
+    @apply bg-primary text-white;
+    .shine {
+      @apply drop-shadow-shinePrimary;
+    }
+  }
+}

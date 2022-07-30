@@ -1,0 +1,16 @@
+[data-scroll-text] {
+  display: inline;
+  position: relative;
+  span {
+    transition: all .2s;
+    position: absolute;
+    left: 0;
+    opacity: 0;
+    transform: translateY(50px);
+  }
+  span.current {
+    position: relative;
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
