@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "dev": "next dev --port 6000"
+    "dev": "next dev --port 3003"
   },
   "dependencies": {
     "next": "^12.1.0",

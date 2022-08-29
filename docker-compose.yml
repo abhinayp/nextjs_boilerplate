@@ -1,9 +1,11 @@
 version: '3.8'
 services:
   nextjs_template:
-    build: .
+    build:
+      dockerfile: "Dockerfile"
+      context: ./
     volumes:
-      - .:/app
+      - ./:/app
       - /app/node_modules
     ports:
-      - 6000:6000
+      - 3003:3003
