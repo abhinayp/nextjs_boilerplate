@@ -7,5 +7,3 @@ services:
       - /app/node_modules
     ports:
       - 6000:6000
-    profiles:
-      - frontend

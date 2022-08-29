@@ -3,4 +3,5 @@ WORKDIR /app
 COPY ./package.json /app/package.json
 RUN ls /app
 RUN npm install
-CMD [ "npm", "run", "dev" ]
+ENTRYPOINT [ "./entrypoint.sh" ]
+CMD [ "run" ]
