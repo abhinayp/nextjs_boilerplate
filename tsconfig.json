@@ -5,7 +5,8 @@
     "paths": {
       "@public/*": [
         "../public/*"
-      ]
+      ],
+      "@config": ["config"]
     },
     "lib": [
       "dom",
