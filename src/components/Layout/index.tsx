@@ -20,7 +20,7 @@ const HeaderLink: React.FC<HeaderProps> = (props) => {
 
   return (
     <Link className='items-center flex' {..._no_child_props}>
-      <span className="cursor-pointer font-light px-3 py-2 text-slate-700 rounded-lg hover:bg-slate-100 hover:text-slate-90">{props.children}</span>
+      <span className="cursor-pointer font-light px-3 py-2 rounded-lg text-slate-700 hover:bg-slate-100 hover:text-slate-90 dark:text-zinc-300 dark:hover:bg-stone-800 dark:hover:text-white transition-all">{props.children}</span>
     </Link>
   )
 }
@@ -32,7 +32,7 @@ const Layout: React.FC<LayoutProps> = ({ children, className="container mx-auto 
         <title>{title}</title>
       </Head>
       <Script src="https://kit.fontawesome.com/1289001f4f.js" crossOrigin="anonymous"></Script>
-      <div className="p-4 border-b">
+      <div className="p-4 border-b bg-white dark:bg-black dark:border-stone-700">
         <div className="flex justify-between container mx-auto">
           <div className="flex space-x-4">
             <HeaderLink href="/">Home</HeaderLink>
