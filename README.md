@@ -1,3 +1,7 @@
+# Deploy to AWS
+[![amplifybutton](https://oneclick.amplifyapp.com/button.svg)](https://console.aws.amazon.com/amplify/home#/deploy?repo=https://github.com/abhinayparvathaneni/nextjs_boilerplate)
+
+---
 # Next.JS Application Template, Ready for Production
 
 ## 1. Styling

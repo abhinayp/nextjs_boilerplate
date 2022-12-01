@@ -2,7 +2,7 @@
   "scripts": {
     "dev": "next dev --port 3003",
     "build": "next build",
-    "start": "NODE_ENV=development node server.js"
+    "start": "next start"
   },
   "dependencies": {
     "eslint-config-next": "^13.0.0",
