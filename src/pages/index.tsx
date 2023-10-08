@@ -11,7 +11,7 @@ const HomePage = () => {
           <div className='font-fancy text-primary'>Welcome</div>
           <div className='text-5xl mt-5 text-stone-500 font-medium'>NextJS Application.</div>
           <div className='text-3xl mt-5 text-stone-700 font-medium'>
-            This is a boiler plate template
+            This is a boiler plate template - testing
           </div>
           <div className='mt-8 text-stone-400 font-light'>
             <p>
